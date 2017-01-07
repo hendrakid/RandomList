@@ -5,8 +5,8 @@ using UnityEngine.UI;
 
 public class RandomNoRepeat : MonoBehaviour {
 	
-	private List<string> alpha = new List<string>{"A", "B", "C", "D", "E", "F", "G", "H"};
-	private List<string> randomList = new List<string>();//move the alpa to this list
+	private List<string> alpha = new List<string>{"A", "B", "C", "D", "E", "F", "G", "H"};//sampel list
+	private List<string> randomList = new List<string>();//move the alpa list to this list
 
 	public string x;
 	public Text text;
